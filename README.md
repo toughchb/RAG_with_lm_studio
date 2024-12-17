@@ -80,7 +80,15 @@ emb_model = MyEmbeddings(base_url="http://localhost:1234/v1")
 - RAG용 체인, 대화용 체인
 
 ---
+### 실행
+```shell
+$ python -m venv rag-test
+$ source ./rag-test/bin/activate
+(rag-test) $ pip install -r requirements.txt
+(rag-test) $ ./rag-test/bin/streamlit run server.py
+```
 
+---
 ### 제작한 웹 페이지 리뷰
 
 - streamlit run server.py로 실행후 처음 화면이다.
